@@ -2,7 +2,7 @@ spring:
   application:
     name: USER-API
   datasource:
-    url: jdbc:mysql://localhost:3306/user-module
+    url: jdbc:mysql://database-1.ctyceg88ibsj.ap-south-1.rds.amazonaws.com:3306/user-module?createDatabaseIfNotExist=true
     username: root
     password: test
   jpa:
